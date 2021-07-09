@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 You can find my list of available commands with /help.
-i'm a group manager bot. Maintained by @HEROGAMERS1 ❤
+i'm a group manager bot. Maintained by @kid_of_telegram ❤
 
 """
 
@@ -79,7 +79,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting him; [Hero](t.me/HEROGAMERS1)"""
+Supporting him; [Hero](t.me/tzkid)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -197,22 +197,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add 𝙇𝙖𝙮𝙡𝙖 to your group",
+                            text="👰 Add Lyci to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Girls_and_Boys_Chatting"),
+                             url=f"https://t.me/tzkid"),
                          InlineKeyboardButton(
                              text="📘 Logs",
-                             url="https://t.me/LaylaLogs")
+                             url="https://t.me/kidbots")
                      ],
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
+                             url="https://t.me/kidbots")
                      ]]))
     else:
         update.effective_message.reply_text(
